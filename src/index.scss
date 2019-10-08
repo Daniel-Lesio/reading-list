@@ -1,0 +1,41 @@
+.input-field label {
+    color: #000;
+  }
+  .myinput:focus{
+    border-bottom: #000!important
+}
+
+
+.valid{
+    border-bottom: 1px solid #000!important
+} .input-field input:focus + label {
+    color: red !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important
+  }
+  #root > div > div.container > div > form > input[type=text]:nth-child:focus{
+      border-bottom: #000 2px solid!important
+  }
+  nav{
+      z-index: 3!important;
+  }
+  .btn {
+      z-index: 2!important;
+  }
+  #app{
+      
+      background-size: cover;
+      position: relative;
+      
+  }
+  .brand{
+      display: flex;
+      i{
+        padding-top: 5px;
+        align-self: center!important;
+
+        }
+  }
